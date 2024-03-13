@@ -48,8 +48,15 @@ h1, dl, ul{
 h2 {
   color: var(--heading-color);
 }
-h3 {
+h3, dt {
   color: var(--subheading-color);
+}
+dt {
+    /* I wanted to add some further customization to my resume */
+    /* I essentially wanted to treat it as h3 */
+    font-family: 'Times New Roman', cursive;
+    font-size: 1.17em;
+    font-weight: bold;
 }
 footer {
     color: var(--tertiary-color);
