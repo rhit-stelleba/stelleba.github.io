@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+img {
+    max-height: 25em;
+    margin-left: 50px;
+    border: slategray 5px solid;
+    border-radius: 10px;
+}
+
+a{
+    color: lightseagreen;
+}
