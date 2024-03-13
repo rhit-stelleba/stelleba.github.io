@@ -1,54 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bryce Stelle's Portfolio</title>
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/main.css" />
-    <link rel="icon" href="images/favicon.png" />
-</head>
-
-<body id="portfolio">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+  </head>
+  <body id="portfolio">
+    <header>
+      <h1>Bryce A. Stelle</h1>
+    </header>
     <nav>
-        <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="resume.html">Resume</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="resume.html">Resume</a></li>
+      </ul>
     </nav>
     <main>
-        <h1>Portfolio</h1>
-        <ul id="portfolioItems">
-            <li>
-                <h2><a href="#">Bee Invaders (Video Game)</a></h2>
-                <img src="images/projects/######.png">
-                <p>Ripoff space invaders, but it has bees and of course you do what bees do... collect fruits and pollinate flowers as they fall into the eternal abyss of space.</p>
-            </li>
-            <li>
-                <h2><a href="#">Luminesce (Video Game)</a></h2>
-                <img src="images/projects/luminesce.png">
-                <p>Endless platformer retro game. Play as the silohuette of a little girl armed only with a flashlight and fend off shadows in the dark of night. Enemies each have individual AI. Project was also created with the use of very limited documentation and my own physics engine.</p>
-            </li>
-            <li>
-                <h2><a href="#">GreenSense</a></h2>
-                <img src="images/projects/greensense1.png">
-                <img src="images/projects/greensense2.png">
-                <p>Help nurture your garden with an IoT device that monitors the conditions and compares them with recommended growth conditions for all plants in the garden. Also alerts the user when a plant is under terrible conditions.</p>
-            </li>
-            <li>
-                <h2><a href="#">Auto-Balancing AVL Tree</a></h2>
-                <img src="images/projects/autobalancingAVLTREE.png">
-            </li>
-            
-        </ul>
+      <h1>Portfolio</h1>
+      <p>
+          Here is a list of projects I've done in the past. Feel free to check them out, or you can peruse around my about page and my resume.
+          Thanks for stopping by!
+      </p>
+
+      <ul id="portfolioItems">
+        <li>
+          <h2><a href="#">Luminesce</a></h2>
+          <img src="images/projects/luminesce_screenshot.png" alt="A screenshot of the luminesce game" />
+          <p>A retro game / endless platformer I created. Enemies used AI and I created infinite random generation of the playing space as well as my own physics engine.</p>
+        </li>
+        <li>
+          <h2><a href="#">Autobalancing AVL Tree</a></h2>
+          <img src="images/projects/autobalancingAVLTREE.png" alt="A screenshot of the portfolio project when only spacing CSS had been completed" />
+          <p>Binary Search Trees with the balanced property, except for upon deletion or insertion, these will automatically re-balance themselves. In doing so, they also maintain the order of elements, allowing for log(N) searches.</p>
+        </li>
+        <li>
+          <h2><a href="#">Basic Layout</a></h2>
+          <img src="images/portfolio/03-layout.png" alt="A screenshot of the portfolio project when basic CSS layout was completed" />
+          <p>At this point, we will have created a basic layout for our portfolio.</p>
+        </li>
+        <li>
+          <h2><a href="#">Typography</a></h2>
+          <img src="images/portfolio/04-typography.png" alt="A screenshot of the portfolio project when CSS typography has just been added" />
+          <p>Adding some font choices at this point will really bring in some personality!</p>
+        </li>
+        <li>
+          <h2><a href="#">Images and Colors Option 1</a></h2>
+          <img src="images/portfolio/05-images.png" alt="A screenshot of the portfolio project with our first image and color selections" />
+          <p>At this point, we will add some color and images.  Things will start to come together!</p>
+        </li>
+      </ul>
     </main>
     <footer>
-        You can email at stelleba@rose-hulman.edu
+      You can email at brocker (at) rose-hulman.edu
     </footer>
-
     <script src="scripts/main.js"></script>
-</body>
-
+  </body>
 </html>
